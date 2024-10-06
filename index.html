@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Principales Tendencias Tecnologicas</title>
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-family: Arial, sans-serif;
+        overflow: hidden;
+      }
+
+      .slide {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+        text-align: center;
+        background-color: #f4f4f4;
+        position: absolute;
+        top: 0;
+        left: 100%;
+        transition: left 0.8s ease;
+      }
+
+      .slide spam {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        width: 900px;
+      }
+
+      .active {
+        left: 0;
+      }
+      .slide h1,
+      .slide h2 {
+        font-size: 36px;
+        color: #0e0e0e;
+        font-weight: 800;
+        text-align: center;
+      }
+      .slide img {
+        max-width: 80%;
+        height: auto;
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 100px;
+      }
+      .slide-content {
+        width: 900px;
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
+        text-align: left;
+      }
+
+      .slide-content spam {
+      
+        display: flex;
+        width: 900px;
+        justify-content: left;
+        text-align: left;
+      }
+
+      #slide1,
+      #slide3,
+      #slide5,
+      #slide7{
+        background-color: #ecc900;
+      }
+      #slide2,
+      #slide4,
+      #slide6,
+      #slide8 {
+        background-color: #009e42;
+      }
+
+      .nav-buttons {
+        position: fixed;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        gap: 10px;
+      }
+      .nav-buttons button {
+        padding: 10px 20px;
+        background-color: #1b1b1b;
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+      }
+      .nav-buttons button:hover {
+        background-color: #ffffff;
+        color: #0e0e0e;
+      }
+      .subtittleprin {
+        text-align: center;
+      }
+
+      .namepresent{
+        color: #000000;
+        margin-top: 50px;
+        margin-left: 50px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <!-- Diapositiva 1: Portada -->
+    <div class="slide active" id="slide1">
+      <div class="slide-content">
+        <h2>
+          Principales tendencias Tecnológicas: IA, Ciberseguridad, IoT, Big
+          Data, Blockchain
+        </h2>
+        <p class="subtittleprin">
+          Innovaciones tecnológicas para el futuro empresarial
+        </p>
+        <img
+          class="img002"
+          src="https://msitgroup.com.mx/bitrix/tools/disk/uf.php?attachedId=7153&action=show&ncc=1&x=0&y=0&width=500&height=220&signature=fd8ab9f1f9f721ec84a31f8f85cd0c575e863aed2c31c5417171b0dab391ebd9"
+          alt="Big Data en los Deportes"
+        />
+
+        <span class="namepresent"><b>Presented by: </b>Mejia Mendoza Max Giordy Wilder</span>
+      </div>
+    </div>
+
+    <!-- Diapositiva 2: Introducción -->
+    <div class="slide" id="slide2">
+      <div class="slide-content">
+        <h2>¿Qué son las tendencias tecnológicas?</h2>
+        <p>
+          Las principales tendencias tecnológicas están transformando la forma
+          en que operan las empresas, gobiernos y la vida cotidiana. Estas
+          innovaciones permiten automatizar tareas, mejorar la seguridad de los
+          datos, y ofrecer soluciones más eficientes y seguras para los desafíos
+          del futuro.
+        </p>
+
+        <spam><b>Ejemplo:</b></spam>
+        <spam
+          >Empresas como Google, Amazon y Tesla ya están aplicando muchas de
+          estas tecnologías para ofrecer productos y servicios disruptivos, como
+          la conducción autónoma, la compra automatizada, y la entrega con
+          drones.</spam
+        ><br />
+
+        <img
+          src="https://media.licdn.com/dms/image/v2/D4D12AQGXoCsncsCbiA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1661235822529?e=1733356800&v=beta&t=zBggxasg-aIQI-6O1coehBKrwteifnI95n_KcoWlFgQ"
+          alt="Big Data en los Deportes"
+        />
+      </div>
+    </div>
+
+
+    <div class="slide" id="slide9">
+        <div class="slide-content">
+          <h1>Inteligencia Artificial (IA)</h1>
+          <img
+          src="https://bigprofiles.com/wp-content/uploads/2024/02/image-13.png"
+          alt="Big Data en los Deportes"
+        />
+        </div>
+      </div>
+
+
+    <!-- Diapositiva 3: Contexto del Mercado -->
+    <div class="slide" id="slide3">
+      <div class="slide-content">
+        <h2>Inteligencia Artificial (IA)</h2>
+        <p>
+          La IA permite a las máquinas aprender de la experiencia, ajustarse a
+          nueva información, y realizar tareas humanas de manera autónoma.
+        </p>
+        <spam style="font-size: 20px; margin-bottom: 5px; color: #000000;"><b>Aplicaciones:</b></spam>
+        <spam
+          ><b>Finanzas:</b> Los algoritmos de IA analizan grandes cantidades de
+          datos financieros para predecir tendencias de mercado, automatizar
+          transacciones bursátiles y personalizar recomendaciones de inversión
+          (ej. Robo-advisors como Betterment).</spam
+        ><br />
+        <spam
+          ><b>Salud:</b> En medicina, la IA se utiliza para diagnóstico por
+          imagen, como en el reconocimiento de tumores en radiografías y la
+          detección temprana de enfermedades a través de análisis
+          predictivo.</spam
+        ><br />
+        <spam
+          ><b>Retail:</b> Los sistemas de IA personalizan la experiencia de
+          compra en línea, ofreciendo recomendaciones basadas en el
+          comportamiento de los usuarios. Ejemplo: Amazon con sus
+          recomendaciones de productos.</spam
+        ><br />
+        <spam
+          ><b>Automóviles Autónomos:</b> Empresas como Tesla utilizan IA para
+          desarrollar vehículos que se conducen solos, mejorando la seguridad en
+          carretera mediante la predicción de movimientos de otros
+          vehículos.</spam
+        ><br />
+        <spam style="font-size: 20px; margin-bottom: 5px; color: #000000;"><b>Beneficios:</b></spam>
+        <spam><b>Automatización:</b> Reducción de tareas repetitivas, permitiendo a los empleados enfocarse en trabajos más complejos.</spam><br />
+        <spam><b>Decisiones basadas en datos:</b> Mejora en la precisión y velocidad de decisiones críticas.</spam><br />
+        <spam style="font-size: 20px; margin-bottom: 5px; color: #000000;"><b>Desafíos:</b></spam>
+        <spam><b>Ética:</b> La IA puede introducir sesgos que afecten la equidad en la toma de decisiones (ej. IA utilizada en procesos de contratación o justicia).</spam><br />
+        <spam><b>Privacidad:</b> Recolección masiva de datos, muchas veces sin el conocimiento completo de los usuarios.</spam><br />
+        <spam style="font-size: 20px; margin-bottom: 5px; color: #000000;"><b>Ejemplo Real:</b></spam>
+        <span>GPT-4 de OpenAI, utilizado para crear textos automáticamente, ya está siendo implementado por empresas de contenido y servicio al cliente.</span>
+      </div>
+    </div>
+
+    <div class="slide" id="slide10">
+        <div class="slide-content">
+          <h1>Ciberseguridad</h1>
+          <img
+          src="https://www.hacknoid.com/wp-content/uploads/2022/07/esquema-ciberseguridad.png"
+          alt="Big Data en los Deportes"
+        />
+        </div>
+      </div>
+
+    <!-- Diapositiva 4: El Papel de Coinbase -->
+    <div class="slide" id="slide4">
+        <div class="slide-content">
+          <h2>Ciberseguridad</h2>
+          <p>
+            Conjunto de prácticas y tecnologías diseñadas para proteger sistemas, redes y datos de ataques cibernéticos.
+          </p>
+          <spam style="font-size: 20px; margin-bottom: 5px; color: #000000;"><b>Aplicaciones:</b></spam>
+          <spam
+            ><b>Autenticación multifactor (MFA): </b> Muchos servicios (bancos, correos electrónicos, etc.) utilizan MFA para agregar una capa adicional de seguridad, requiriendo más de una prueba de autenticación.</spam
+          ><br />
+          <spam
+            ><b>Protección contra ransomware:</b> Empresas como Kaspersky y McAfee desarrollan soluciones para prevenir ataques que encriptan archivos y exigen pagos por su liberación.</spam
+          ><br />
+          <spam
+            ><b>Blockchain y Ciberseguridad:</b> Algunas empresas están utilizando blockchain para asegurar la integridad de datos sensibles, distribuyendo la información en múltiples nodos.</spam
+          ><br />
+          <spam style="font-size: 20px; margin-bottom: 5px; color: #000000;"><b>Beneficios:</b></spam>
+          <spam><b>Confianza del cliente:</b> Proteger la privacidad aumenta la confianza de los consumidores y evita daños a la reputación de la empresa.</spam><br />
+
+          <spam style="font-size: 20px; margin-bottom: 5px; color: #000000;"><b>Desafíos:</b></spam>
+          <spam><b>Evolución de amenazas:</b> Los atacantes están en constante desarrollo de nuevas formas de penetrar sistemas, como con el uso de IA en ataques cibernéticos avanzados.</spam><br />
+          <spam><b>Formación continua:</b> Las empresas deben actualizarse continuamente para estar al día en métodos de protección.</spam><br />
+
+          <spam style="font-size: 20px; margin-bottom: 5px; color: #000000;"><b>Ejemplo Real:</b></spam>
+          <span>El ataque de ransomware a Colonial Pipeline en 2021, que paralizó el suministro de combustible en parte de Estados Unidos, evidenció la importancia crítica de la ciberseguridad en infraestructuras nacionales.</span>
+        </div>
+      </div>
+
+      <div class="slide" id="slide10">
+        <div class="slide-content">
+          <h1>Internet de las Cosas (IoT)</h1>
+          <img
+          src="https://miro.medium.com/v2/resize:fit:1024/0*Mj-Az370rc2lI-2x.png"
+          alt="Big Data en los Deportes"
+        />
+        </div>
+      </div>
+
+    <!-- Diapositiva 5: Soluciones Innovadoras -->
+    <div class="slide" id="slide5">
+        <div class="slide-content">
+            <h2>Internet de las Cosas (IoT)</h2>
+            <p>
+                Red de dispositivos conectados que pueden recopilar y compartir datos en tiempo real.
+            </p>
+            <spam style="font-size: 20px; margin-bottom: 5px; color: #000000;"><b>Aplicaciones:</b></spam>
+            <spam
+              ><b>Ciudades inteligentes: </b> Cámaras de tráfico, luces, y sensores de calidad del aire que informan a los gobiernos locales para mejorar la planificación urbana y la eficiencia energética (ej. Barcelona).</spam
+            ><br />
+            <spam
+              ><b>Dispositivos médicos:</b> Los monitores cardíacos inteligentes y otros dispositivos médicos permiten a los médicos monitorear a los pacientes en tiempo real y prevenir complicaciones.</spam
+            ><br />
+            <spam
+              ><b>Agricultura inteligente:</b> Sensores IoT en granjas monitorean las condiciones del suelo y del clima para optimizar el uso de recursos y maximizar la producción (ej. John Deere usa IoT para optimizar el uso de maquinaria agrícola).</spam
+            ><br />
+
+
+            <spam style="font-size: 20px; margin-bottom: 5px; color: #000000;"><b>Beneficios:</b></spam>
+            <spam><b>Eficiencia operativa:</b> Los datos en tiempo real permiten ajustar procesos de forma automática.</spam><br />
+            <spam><b>Mejora en la experiencia del usuario: </b>Los productos personalizados mejoran la vida diaria (ej. refrigeradores inteligentes que alertan cuando falta un producto).</spam><br />
+
+  
+            <spam style="font-size: 20px; margin-bottom: 5px; color: #000000;"><b>Desafíos:</b></spam>
+            <spam><b>Seguridad:</b> Los dispositivos conectados son vulnerables a ataques. Ej. hackers han manipulado cámaras de seguridad IoT.</spam><br />
+            <spam><b>Interoperabilidad: </b>Lograr que todos los dispositivos se comuniquen entre sí sin problemas sigue siendo un reto.</spam><br />
+  
+            <spam style="font-size: 20px; margin-bottom: 5px; color: #000000;"><b>Ejemplo Real:</b></spam>
+            <span>Tesla utiliza IoT para la comunicación constante entre sus coches y servidores, permitiendo actualizaciones automáticas y un monitoreo continuo del vehículo.</span>
+          </div>
+    </div>
+
+    <div class="slide" id="slide10">
+        <div class="slide-content">
+          <h1>Big Data</h1>
+          <img
+          src="https://www.kolabtree.com/blog/wp-content/uploads/2015/07/Big-data-image.png"
+          alt="Big Data en los Deportes"
+        />
+        </div>
+      </div>
+
+    <!-- Diapositiva 7: Factores Clave de Éxito -->
+    <div class="slide" id="slide6">
+        <div class="slide-content">
+            <h2>Big Data</h2>
+            <p>
+             Tecnología para el manejo, procesamiento y análisis de grandes volúmenes de datos a gran velocidad.
+            </p>
+            <spam style="font-size: 20px; margin-bottom: 5px; color: #000000;"><b>Aplicaciones:</b></spam>
+            <spam
+              ><b>Marketing personalizado: </b> Netflix utiliza Big Data para analizar el comportamiento de visualización de sus usuarios y sugerir series y películas personalizadas.</spam
+            ><br />
+            <spam
+              ><b>Detección de fraude:</b> Los bancos como BBVA utilizan Big Data para analizar patrones de transacciones y detectar fraudes financieros en tiempo real.</spam
+            ><br />
+            <spam
+              ><b>Salud pública: </b>Durante la pandemia, se usaron modelos de Big Data para rastrear la propagación de COVID-19 y predecir futuros brotes.</spam
+            ><br />
+            <spam
+            ><b>Logística: </b>Amazon optimiza sus rutas de entrega a través de análisis en tiempo real de millones de puntos de datos, reduciendo costos y mejorando tiempos de entrega.</spam
+          ><br />
+
+
+            <spam style="font-size: 20px; margin-bottom: 5px; color: #000000;"><b>Beneficios:</b></spam>
+            <spam><b>Análisis predictivo:</b> Permite tomar decisiones informadas basadas en patrones que no serían visibles en conjuntos de datos más pequeños.</spam><br />
+            <spam><b>Optimización operativa: </b>Empresas pueden ajustar sus procesos en tiempo real para reducir costos y mejorar la eficiencia.</spam><br />
+
+  
+            <spam style="font-size: 20px; margin-bottom: 5px; color: #000000;"><b>Desafíos:</b></spam>
+            <spam><b>Almacenamiento y procesamiento:</b> El volumen de datos crece exponencialmente, lo que plantea desafíos en infraestructura.</spam><br />
+            <spam><b>Privacidad: </b>Las leyes como el GDPR requieren que las empresas manejen los datos personales con mayor cuidado.</spam><br />
+  
+            <spam style="font-size: 20px; margin-bottom: 5px; color: #000000;"><b>Ejemplo Real:</b></spam>
+            <span>Walmart utiliza Big Data para ajustar inventarios en tiempo real, asegurando que los productos más demandados estén siempre disponibles en las tiendas.</span>
+          </div>
+    </div>
+
+
+    <div class="slide" id="slide10">
+        <div class="slide-content">
+          <h1>Blockchain</h1>
+          <img
+          src="https://rfpro.mx/wp-content/uploads/2020/07/blockchain-3508589_1920.png"
+          alt="Big Data en los Deportes"
+        />
+        </div>
+      </div>
+    <!-- Diapositiva 11: Conclusión -->
+    <div class="slide" id="slide7">
+        <div class="slide-content">
+            <h2>Blockchain</h2>
+            <p>
+                Una cadena de bloques es una estructura de datos compartida que asegura transacciones de manera segura y transparente.
+            </p>
+            <spam style="font-size: 20px; margin-bottom: 5px; color: #000000;"><b>Aplicaciones:</b></spam>
+            <spam
+              ><b>Criptomonedas:  </b> Bitcoin y Ethereum permiten realizar transacciones descentralizadas, sin necesidad de un intermediario.</spam
+            ><br />
+            <spam
+              ><b>Contratos inteligentes: </b> Ethereum permite ejecutar contratos que se cumplen automáticamente cuando se cumplen ciertas condiciones (ej. Aave, una plataforma de préstamos descentralizados).</spam
+            ><br />
+            <spam
+              ><b>Cadenas de suministro: </b>Durante la pandemia, se usaron modelos de Big Data para rastrear la propagación de COVID-19 y predeEmpresas como Walmart usan blockchain para rastrear productos a lo largo de su cadena de suministro, garantizando su autenticidad y calidad.</spam
+            ><br />
+            <spam
+            ><b>Identidad digital: </b>Blockchain ofrece soluciones de identidad digital que son más seguras y permiten a los usuarios controlar su propia información personal.</spam
+          ><br />
+
+
+            <spam style="font-size: 20px; margin-bottom: 5px; color: #000000;"><b>Beneficios:</b></spam>
+            <spam><b>Transparencia: </b> Cada transacción queda registrada de forma inmutable, lo que mejora la trazabilidad y la confianza.</spam><br />
+            <spam><b>Descentralización: </b>No requiere de intermediarios, reduciendo costos y tiempos.</spam><br />
+
+  
+            <spam style="font-size: 20px; margin-bottom: 5px; color: #000000;"><b>Desafíos:</b></spam>
+            <spam><b>Escalabilidad: </b>Las redes blockchain actuales, como Bitcoin, enfrentan desafíos para manejar grandes volúmenes de transacciones de manera rápida.</spam><br />
+            <spam><b>Regulación: </b>La adopción de blockchain en industrias reguladas requiere que los gobiernos establezcan normas claras.</spam><br />
+  
+            <spam style="font-size: 20px; margin-bottom: 5px; color: #000000;"><b>Ejemplo Real:</b></spam>
+            <span>IBM Food Trust es una plataforma blockchain utilizada para rastrear la cadena de suministro de alimentos, mejorando la seguridad y la trazabilidad.</span>
+          </div>
+    </div>
+    <div class="slide" id="slide8">
+        <div class="slide-content">
+            <h2>Conclusión y Perspectivas Futuras</h2>
+
+            <spam style="font-size: 20px; margin-bottom: 5px; color: #000000;"><b>¿Hacia dónde nos dirigimos?</b></spam>
+            <spam>La integración de IA, IoT, Big Data y Blockchain promete crear un ecosistema interconectado donde la seguridad y la eficiencia se incrementarán. Los próximos años verán un crecimiento en la colaboración entre estas tecnologías para resolver problemas complejos de manera automatizada.</spam
+            ><br /> 
+
+            <spam style="font-size: 20px; margin-bottom: 5px; color: #000000;"><b>Ejemplo</b></spam>
+            <span>La industria 4.0 combina IA, IoT y Big Data para crear fábricas inteligentes capaces de autodiagnosticar problemas y optimizar la producción sin intervención humana.</span>
+          </div>
+    </div>
+
+    <!-- Botones de navegación -->
+    <div class="nav-buttons">
+      <button onclick="prevSlide()">Anterior</button>
+      <button onclick="nextSlide()">Siguiente</button>
+    </div>
+
+    <script>
+      let currentSlide = 0;
+      const slides = document.querySelectorAll(".slide");
+
+      function showSlide(index) {
+        slides.forEach((slide, i) => {
+          slide.classList.remove("active");
+          if (i === index) {
+            slide.classList.add("active");
+          }
+        });
+      }
+
+      function nextSlide() {
+        if (currentSlide < slides.length - 1) {
+          currentSlide++;
+          showSlide(currentSlide);
+        }
+      }
+
+      function prevSlide() {
+        if (currentSlide > 0) {
+          currentSlide--;
+          showSlide(currentSlide);
+        }
+      }
+
+      showSlide(currentSlide);
+    </script>
+  </body>
+</html>
